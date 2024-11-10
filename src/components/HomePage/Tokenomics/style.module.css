@@ -1,0 +1,13 @@
+.gradient_text {
+  background: linear-gradient(to top, #ffe14900, #FFD11F, #FF9C05);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.gradient_border {
+  border: 1.5px solid;
+  border-image: linear-gradient(to right, #FFE249, #ffe14983) 0 0 1 0;
+  border-radius: 8px;
+}
